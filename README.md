@@ -8,11 +8,8 @@ The code is heavily inspired by previous projects from [Ricard Argelaguet](https
 
 ## Installation
 
-We recommend to create a conda environment for the project and install the latest dev versions of the pip packages.
+We recommend to create a conda environment for the project from the `env.yaml` file:
 
 ```
-conda install -c conda-forge ipjupyterlab scanpy matplotlib seaborn pandas
-pip install git+https://github.com/gtca/muon
-pip install git+https://github.com/bioFAM/mofapy2@dev --force-reinstall --no-deps
-pip install git+https://github.com/gtca/mofax
+conda env create --name moc --file=env.yaml
 ```
